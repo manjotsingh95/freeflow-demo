@@ -1,0 +1,46 @@
+.graphContainer {
+    width: 988px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.graphInfo {
+    margin-top: 28px;
+    box-sizing: border-box;
+    padding-right: 28px;
+    color: #555;
+}
+
+.graphInfo h2 {
+    margin-bottom: 10px;
+}
+
+.lpiLine {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+
+/* --------------------------------------------- */
+
+.emptyGraphContainer {
+    position: relative;
+}
+
+.graphShadow {
+    width: 650px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.graphShadow h3 {
+    color: white;
+    font-size: 40px;
+}

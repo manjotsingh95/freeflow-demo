@@ -1,0 +1,64 @@
+.freeWorkout {
+  width: 988px;
+  height: 280px;
+  background: rgb(50, 116, 223);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: -2;
+}
+
+.freeWorkout header {
+  width: 100%;
+  height: 40px;
+  background: #fd5020;
+  font-size: 0.95em;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameInfo {
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+
+.gameInfo img {
+  width: 180px;
+  height: 180px;
+  margin-left: 248px;
+  margin-right: 58px;
+}
+
+.workoutButton {
+  width: 220px;
+  height: 50px;
+  color: #0e91a1;
+  background: white;
+  border-radius: 55px;
+  text-align: center;
+  font-size: 1.15em;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-top: 14px;
+  margin-top: 16px;
+  cursor: pointer;
+  position: relative;
+  z-index: 8;
+}
+
+.workoutButton:hover {
+  opacity: 0.8;
+}
+
+.freeLink {
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 8;
+}
